@@ -373,7 +373,7 @@ function receivedMessage(event) {
 
       default:
         sendTextMessage(senderID, "Oi, informe um CEP para que a sua busca seja processada!");
-    }*/
+    }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
   }
